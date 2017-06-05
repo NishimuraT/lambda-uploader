@@ -101,7 +101,7 @@ module.exports = {
                     Handler: handler,
                     Mode: 'event',
                     Role: role,
-                    Runtime: 'nodejs4.3',
+                    Runtime: 'nodejs6.10',
                     MemorySize: memory,
                     Timeout: timeout
                 }, function(err) {
